@@ -43,3 +43,6 @@ The next section contains the hotel policies.
 The next section contains all the payment options this hotel has.
 ### Hotel Map
 The last section of the page is a maps widget with the location and address of the hotel.
+
+## Payment Page
+After we have selected the hotel room details, we will be transitioned to the payment page. 
