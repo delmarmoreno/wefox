@@ -1,4 +1,4 @@
-# Exploratory Testing PHPTravels.com
+# Notes for Exploratory Testing PHPTravels.com
 PHPTravels.com offers now hotel booking functionality. This functionality can be accessed from top main navigation menu. The site seems to be responsive by page-width. 
 
 
