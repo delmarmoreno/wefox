@@ -45,4 +45,41 @@ The next section contains all the payment options this hotel has.
 The last section of the page is a maps widget with the location and address of the hotel.
 
 ## Payment Page
-After we have selected the hotel room details, we will be transitioned to the payment page. 
+After we have selected the hotel room details, we will be transitioned to the payment page. In this page, the user is expected to insert payment information in  three sections: 
+
+ 1. Personal Information
+In this section, we are expected to submit:
+ 
+
+ - First Name 
+ - Last Name
+ - Email
+ - Phone
+ - Address
+ - Country 
+ - Nationality
+
+	 
+ 2. Travellers Information
+ Depending on the amount of guests' we have inserted in your booking, we have to insert now their details such as:
+ - Title
+ - First Name
+ - Last Name
+ - For children: age.
+ 
+ 3. Payment Method
+We are presented with six options to pay: 
+
+ 1. Pay with Bank Transfer
+ 2. Pay Later
+ 3. Pay with PayPal
+ 4. Pay with Stripe
+ 5. Pay with Paddle
+ 6. Pay with Stempos
+
+We need to check the box to agree with the terms and conditions. And, finally, with click Confirm Booking button. 
+
+## Confirmation Page
+After we have submitted our payment information and clicked Confirm Booking button, we will land in the Confirmation Page. 
+This page will contain all the information we have selected in our purchase and a reservation number. It will also have a status section at the top.
+
