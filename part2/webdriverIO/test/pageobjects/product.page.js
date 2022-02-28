@@ -6,8 +6,8 @@ var info = require('../data/config_data.js');
  */
 class ProductPage extends Page {
    
-    async product(){
-    	await expect(browser).toHaveTitle(info.productPage1.title);
+    async product(infoPassed){
+    	await expect(browser).toHaveTitle(infoPassed);
         
     }
 }

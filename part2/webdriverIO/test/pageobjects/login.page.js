@@ -31,7 +31,7 @@ class LoginPage extends Page {
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async login () {
+    async login (product) {
         await this.shopOptionButton.click();
         await browser.pause(3000);
         await this.cookiesButton.click();
@@ -43,11 +43,25 @@ class LoginPage extends Page {
         await browser.pause(3000);
         await browser.navigateTo(info.productPage1.url);
         await browser.pause(2000);
-        await this.product.click();
+        await $(product).click();
         await browser.pause(2000);
   
     }
-
+    async loginProduct (product) {
+        await browser.pause(3000);
+        await this.shopOptionButton.click();
+        await browser.pause(3000);
+        await this.cookiesButton.click();
+        await browser.pause(3000);
+        await this.searchButton.click();
+        await this.searchField.setValue("Llavero");
+        await browser.pause(3000);
+        await browser.keys("Enter");
+        await browser.pause(3000);
+        await $(product).click();
+        await browser.pause(2000);
+  
+    }
     /**
      * overwrite specific options to adapt it to page object
      */
